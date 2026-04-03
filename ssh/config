@@ -1,17 +1,17 @@
 Host github.com
   HostName github.com
   IdentityFile ~/.ssh/id_ed25519
-  UseKeychain yes
+  # UseKeychain yes
   AddKeysToAgent yes
 
 Host github.com-signing
   HostName github.com
   IdentityFile ~/.ssh/id_ed25519_signing
-  UseKeychain yes
+  # UseKeychain yes
   AddKeysToAgent yes
 
 Host gitlab.com
   HostName gitlab.com
   IdentityFile ~/.ssh/id_ed25519
-  UseKeychain yes
+  # UseKeychain yes
   AddKeysToAgent yes

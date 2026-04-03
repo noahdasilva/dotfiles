@@ -23,6 +23,6 @@ The following tools are initialized in `.zshrc`:
 
 ### Prerequisites
 
+- [Homebrew](https://brew.sh/) (for MacOS)
 - [Oh My Zsh](https://ohmyz.sh/)
 - [Powerlevel10k](https://github.com/romkatv/powerlevel10k)
-- [Homebrew](https://brew.sh/) (for MacOS)
