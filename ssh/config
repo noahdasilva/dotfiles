@@ -11,6 +11,7 @@ Host github.com-signing
   AddKeysToAgent yes
 
 Host gitlab.com
+  HostName gitlab.com
   IdentityFile ~/.ssh/id_ed25519
   UseKeychain yes
   AddKeysToAgent yes
