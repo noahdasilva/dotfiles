@@ -1,6 +1,6 @@
 ## SSH
 
-Configuration lives at `ssh/config`.
+Configuration lives at `~/.ssh/config`.
 
 Two SSH keys are used — one for authentication and one for commit signing. Keeping them separate means if one is ever compromised, the other doesn't need to be rotated.
 
