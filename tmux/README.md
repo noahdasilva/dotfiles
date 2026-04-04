@@ -2,6 +2,19 @@
 
 Configuration lives at `~/.config/tmux/tmux.conf`.
 
+### Plugins
+
+Uses [TPM (Tmux Plugin Manager)](https://github.com/tmux-plugins/tpm) to manage plugins. Install it with:
+```bash
+git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
+```
+
+Then press `prefix` + `I` inside tmux to install all plugins listed in the configuration file.
+
 ### Themes
 
-Uses a [forked version of catppuccin-tmux](https://github.com/dreamsofcode-io/catppuccin-tmux) by dreamsofcode-io rather than the official [catppuccin/tmux](https://github.com/catppuccin/tmux) plugin. The fork is included directly under `~/.config/tmux/plugins/catppuccin-extended/` instead of being managed through TPM.
+Uses the [catppuccin/tmux](https://github.com/catppuccin/tmux) v2 plugin, installed manually at `~/.config/tmux/plugins/catppuccin/` rather than through TPM:
+```bash
+mkdir -p ~/.config/tmux/plugins/catppuccin
+git clone -b v2.1.3 https://github.com/catppuccin/tmux.git ~/.config/tmux/plugins/catppuccin/tmux
+```
