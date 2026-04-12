@@ -6,7 +6,7 @@ Configuration lives at `~/.config/tmux/tmux.conf`.
 
 Uses [TPM (Tmux Plugin Manager)](https://github.com/tmux-plugins/tpm) to manage plugins. Install it with:
 ```bash
-git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
+git clone https://github.com/tmux-plugins/tpm ~/.config/tmux/plugins/tpm
 ```
 
 Then press `prefix` + `I` inside tmux to install all plugins listed in the configuration file.
